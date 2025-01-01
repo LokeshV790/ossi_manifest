@@ -4,13 +4,13 @@
   <remote name="clang" fetch="https://gitlab.com/projectelixiros/" />
 
   <!-- MT6893 Common -->
-  <project path="device/oplus/mt6893-common" revision="lineage-22" name="android_device_oplus_mt6893-common" remote="ossi" />
-  <project path="vendor/oplus/mt6893-common" revision="lineage-22" name="proprietary_vendor_oplus_mt6893-common" remote="ossi" />
+  <project path="device/oplus/mt6893-common" revision="lineage-22.1" name="android_device_oplus_mt6893-common" remote="ossi" />
+  <project path="vendor/oplus/mt6893-common" revision="lineage-22.1" name="proprietary_vendor_oplus_mt6893-common" remote="ossi" />
   <project path="kernel/oplus/mt6893" name="android_kernel_oplus_mt6893" remote="ossi" revision="lineage-21" />
 
   <!-- Cupida -->
-  <project path="device/oplus/cupida" revision="lineage-22" name="android_device_oplus_cupida" remote="ossi"/>
-  <project path="vendor/oplus/cupida" revision="lineage-22" name="proprietary_vendor_oplus_cupida" remote="ossi"/>
+  <project path="device/oplus/cupida" revision="lineage-22.1" name="android_device_oplus_cupida" remote="ossi"/>
+  <project path="vendor/oplus/cupida" revision="lineage-22.1" name="proprietary_vendor_oplus_cupida" remote="ossi"/>
 
   <!-- Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="ossi" revision="lineage-21"/>
@@ -21,8 +21,5 @@
 
   <!-- SEPolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="ossi" revision="lineage-21"/>
-
-  <!-- Misc Packages -->
-  <project path="packages/apps/OneplusParts" name="android_packages_apps_OneplusParts" remote="ossi" revision="lineage-21"/>
-
+  
 </manifest>
